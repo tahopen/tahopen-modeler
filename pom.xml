@@ -5,11 +5,11 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-ce-jar-parent-pom</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
   <groupId>org.tahopen</groupId>
   <artifactId>tahopen-modeler-parent</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>pom</packaging>
   <name>Tahopen Community Edition Project: ${project.artifactId}</name>
   <description>Tahopen common modeler project.</description>
@@ -27,16 +27,16 @@
   -->
   <properties>
     <maven-bundle-plugin.version>2.3.7</maven-bundle-plugin.version>
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
+    <platform.version>0.1.0.0</platform.version>
     <dependency.pentaho-simple-jndi.revision>1.0.2</dependency.pentaho-simple-jndi.revision>
-    <mondrian.version>0.1.0.0-SNAPSHOT</mondrian.version>
-    <commons-xul.version>0.1.0.0-SNAPSHOT</commons-xul.version>
+    <mondrian.version>0.1.0.0</mondrian.version>
+    <commons-xul.version>0.1.0.0</commons-xul.version>
     <dependency.junit.revision>4.11</dependency.junit.revision>
-    <pentaho-metadata.version>0.1.0.0-SNAPSHOT</pentaho-metadata.version>
+    <pentaho-metadata.version>0.1.0.0</pentaho-metadata.version>
     <dependency.sl4j.revision>1.5.8</dependency.sl4j.revision>
-    <commons-gwt.version>0.1.0.0-SNAPSHOT</commons-gwt.version>
+    <commons-gwt.version>0.1.0.0</commons-gwt.version>
     <dependency.mockito.revision>1.8.4</dependency.mockito.revision>
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0</pdi.version>
   </properties>
   <dependencies>
     <dependency>
@@ -271,13 +271,5 @@
       <version>${bcprov-jdk15to18.version}</version>
     </dependency>
   </dependencies>
-
-
-  <repositories>
-  </repositories>
-
-  <pluginRepositories>
-  </pluginRepositories>
-
 
 </project>
